@@ -9,7 +9,7 @@ RUN apt-get update -qq && apt-get install -qqy \
   build-essential && \
   apt-get clean
 
-RUN git clone --recursive https://github.com/lucasjones/cpuminer-multi.git
+RUN git clone --recursive https://github.com/OhGodAPet/cpuminer-multi.git
 
 RUN cd cpuminer-multi && ./autogen.sh && ./configure CFLAGS="-O3" && make
 
