@@ -9,4 +9,6 @@ tar -xvf bytecoin-linux.tar.gz -C /root/bytecoin && \
 rm -rf bytecoin-linux.tar.gz && \
 cd bytecoin
 
+WORKDIR /root/bytecoin
+
 CMD ["/root/bytecoin/launch bytecoind"]
