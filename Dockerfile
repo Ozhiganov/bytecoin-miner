@@ -15,4 +15,4 @@ RUN cd cpuminer-multi && ./autogen.sh && ./configure CFLAGS="-O3" && make
 
 WORKDIR /cpuminer-multi
 
-CMD ["./minerd"]
+ENTRYPOINT ["./minerd"]
