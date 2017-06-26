@@ -1,6 +1,6 @@
 # ByteCoin Miner
 
-This image will provide Bytecoin mining using Debian 9 as base
+This image will provide Bytecoin mining using Ubuntu 16.04 as base
 
 # How to use
 ````bash
