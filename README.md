@@ -1,2 +1,1 @@
-# byte-miner
-bytecoin miner docker
+Dockerfile bytecoin miner for https://hub.docker.com/r/creepycat/byte-miner/
