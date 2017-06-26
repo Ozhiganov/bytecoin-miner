@@ -1,6 +1,3 @@
-# Still in Development
-This image is still not functional, expect a working docker image within 5 or 7 hours
-
 # ByteCoin Miner
 
 This image will provide Bytecoin mining using Debian 9 as base
